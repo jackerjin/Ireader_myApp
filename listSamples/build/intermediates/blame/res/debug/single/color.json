@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\jackerjin\\studioworkspace\\AndroidStudioProjects\\Ireader_myApp\\listSamples\\build\\intermediates\\res\\merged\\debug\\color\\vpi__light_theme.xml",
+        "source": "F:\\jackerjin\\studioworkspace\\AndroidStudioProjects\\Ireader_myApp\\viewpagerIndicator_library\\build\\intermediates\\bundles\\default\\res\\color\\vpi__light_theme.xml"
+    },
+    {
+        "merged": "F:\\jackerjin\\studioworkspace\\AndroidStudioProjects\\Ireader_myApp\\listSamples\\build\\intermediates\\res\\merged\\debug\\color\\vpi__dark_theme.xml",
+        "source": "F:\\jackerjin\\studioworkspace\\AndroidStudioProjects\\Ireader_myApp\\viewpagerIndicator_library\\build\\intermediates\\bundles\\default\\res\\color\\vpi__dark_theme.xml"
+    }
+]

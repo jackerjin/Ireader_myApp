@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_sift_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tarena.ireader_myapp.Fragment.SiftFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <include
+        android:id="@+id/sift_toolbar"
+        layout="@layout/toolbar_sift_layout" />
+
+    <!--<GridView-->
+        <!--android:id="@+id/sift_gridviewId"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginTop="96dp"-->
+        <!--android:horizontalSpacing="2dp"-->
+        <!--android:numColumns="2"-->
+        <!--android:verticalSpacing="2dp">-->
+
+    <!--</GridView>-->
+    <!--<WebView-->
+        <!--android:layout_marginTop="96dp"-->
+        <!--android:id="@+id/webView_fragment_bookbrack"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"></WebView>-->
+<ListView
+    android:layout_marginTop="48dp"
+    android:id="@+id/sift_listView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></ListView>
+</FrameLayout>

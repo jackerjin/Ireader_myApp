@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_stack_layout"
+    tools:context="com.example.tarena.ireader_myapp.Fragment.StackFragment">
+   <include
+       android:id="@+id/stack_toolbarId"
+       layout="@layout/toolbar_layout" />
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/stack_recyclerviewId"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_gravity="center"
+       android:layout_marginTop="32dp">
+
+   </android.support.v7.widget.RecyclerView>
+
+</FrameLayout>

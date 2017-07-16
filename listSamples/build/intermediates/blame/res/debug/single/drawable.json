@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\jackerjin\\studioworkspace\\AndroidStudioProjects\\Ireader_myApp\\listSamples\\build\\intermediates\\res\\merged\\debug\\drawable\\perm_group_camera.xml",
+        "source": "F:\\jackerjin\\studioworkspace\\AndroidStudioProjects\\Ireader_myApp\\listSamples\\src\\main\\res\\drawable\\perm_group_camera.xml"
+    },
+    {
+        "merged": "F:\\jackerjin\\studioworkspace\\AndroidStudioProjects\\Ireader_myApp\\listSamples\\build\\intermediates\\res\\merged\\debug\\drawable\\perm_group_device_alarms.xml",
+        "source": "F:\\jackerjin\\studioworkspace\\AndroidStudioProjects\\Ireader_myApp\\listSamples\\src\\main\\res\\drawable\\perm_group_device_alarms.xml"
+    },
+    {
+        "merged": "F:\\jackerjin\\studioworkspace\\AndroidStudioProjects\\Ireader_myApp\\listSamples\\build\\intermediates\\res\\merged\\debug\\drawable\\perm_group_location.xml",
+        "source": "F:\\jackerjin\\studioworkspace\\AndroidStudioProjects\\Ireader_myApp\\listSamples\\src\\main\\res\\drawable\\perm_group_location.xml"
+    },
+    {
+        "merged": "F:\\jackerjin\\studioworkspace\\AndroidStudioProjects\\Ireader_myApp\\listSamples\\build\\intermediates\\res\\merged\\debug\\drawable\\perm_group_calendar.xml",
+        "source": "F:\\jackerjin\\studioworkspace\\AndroidStudioProjects\\Ireader_myApp\\listSamples\\src\\main\\res\\drawable\\perm_group_calendar.xml"
+    },
+    {
+        "merged": "F:\\jackerjin\\studioworkspace\\AndroidStudioProjects\\Ireader_myApp\\listSamples\\build\\intermediates\\res\\merged\\debug\\drawable\\vpi__tab_indicator.xml",
+        "source": "F:\\jackerjin\\studioworkspace\\AndroidStudioProjects\\Ireader_myApp\\viewpagerIndicator_library\\build\\intermediates\\bundles\\default\\res\\drawable\\vpi__tab_indicator.xml"
+    },
+    {
+        "merged": "F:\\jackerjin\\studioworkspace\\AndroidStudioProjects\\Ireader_myApp\\listSamples\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_tab_indicator.xml",
+        "source": "F:\\jackerjin\\studioworkspace\\AndroidStudioProjects\\Ireader_myApp\\listSamples\\src\\main\\res\\drawable\\custom_tab_indicator.xml"
+    }
+]

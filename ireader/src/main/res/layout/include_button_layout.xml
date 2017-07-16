@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<FrameLayout
+    android:layout_above="@+id/mRadioGroupId"
+    android:id="@+id/main_framelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+</FrameLayout>
+    <View
+        android:layout_above="@+id/mRadioGroupId"
+        android:background="#CFCFD2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <RadioGroup
+        android:layout_alignParentBottom="true"
+        android:id="@+id/mRadioGroupId"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:textColor="@drawable/color"
+            android:checked="true"
+            android:id="@+id/radio0"
+            style="@style/Button_style"
+            android:drawableTop="@drawable/shujia_selector"
+            android:text="书架" />
+
+        <RadioButton
+            android:textColor="@drawable/color"
+            android:id="@+id/radio1"
+            style="@style/Button_style"
+            android:drawableTop="@drawable/jingxuan_selector"
+            android:text="精华" />
+
+        <RadioButton
+            android:textColor="@drawable/color"
+            android:id="@+id/radio2"
+            style="@style/Button_style"
+            android:drawableTop="@drawable/shuku_selector"
+            android:text="书库" />
+
+        <RadioButton
+            android:textColor="@drawable/color"
+            android:id="@+id/radio3"
+            style="@style/Button_style"
+            android:drawableTop="@drawable/faxian_selector"
+            android:text="发现" />
+    </RadioGroup>
+
+</RelativeLayout>

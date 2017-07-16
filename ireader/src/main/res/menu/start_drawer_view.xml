@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item_1"
+            android:icon="@mipmap/zhanghu"
+            android:title="我的账户" />
+        <item
+            android:id="@+id/nav_item_2"
+            android:icon="@mipmap/baoyuetequan"
+            android:title="包月特权" />
+        <item
+            android:id="@+id/nav_item_3"
+            android:icon="@mipmap/wodechaozhibo"
+            android:title="我的超值包" />
+        <item
+            android:id="@+id/nav_sub_1"
+            android:icon="@mipmap/wodexiaoxi"
+            android:title="我的消息" />
+    </group>
+    <item android:title=" ">
+        <menu>
+            <item
+                android:id="@+id/nav_sub_2"
+                android:icon="@mipmap/liulanlishi"
+                android:title="浏览历史" />
+            <item
+                android:id="@+id/nav_sub_3"
+                android:icon="@mipmap/wodeshoucang"
+                android:title="我的收藏" />
+            <item
+                android:id="@+id/nav_sub_4"
+                android:icon="@mipmap/wodejiyin"
+                android:title="我的基因" />
+            <item
+                android:id="@+id/nav_sub_5"
+                android:icon="@mipmap/chengweizuojia"
+                android:title="成为作家" />
+            <item
+                android:id="@+id/nav_sub_6"
+                android:icon="@mipmap/guanbichuangkou"
+                android:title="关闭窗口" />
+        </menu>
+    </item>
+
+</menu>

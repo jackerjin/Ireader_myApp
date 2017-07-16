@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ireader_myApp.iml" filepath="$PROJECT_DIR$/Ireader_myApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listSamples/listSamples.iml" filepath="$PROJECT_DIR$/listSamples/listSamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/progresslib/progresslib.iml" filepath="$PROJECT_DIR$/progresslib/progresslib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpagerIndicator_library/viewpagerIndicator_library.iml" filepath="$PROJECT_DIR$/viewpagerIndicator_library/viewpagerIndicator_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volleytest01/volleytest01.iml" filepath="$PROJECT_DIR$/volleytest01/volleytest01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volleytest02/volleytest02.iml" filepath="$PROJECT_DIR$/volleytest02/volleytest02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volleytest03/volleytest03.iml" filepath="$PROJECT_DIR$/volleytest03/volleytest03.iml" />
+    </modules>
+  </component>
+</project>

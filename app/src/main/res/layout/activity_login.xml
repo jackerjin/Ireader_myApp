@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.LoginActivity">
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="@drawable/shape_login"
+            android:layout_height="40dp">
+            <ImageView
+
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:background="@null"
+                android:id="@+id/lg_ev_username"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center_vertical"
+                android:hint="请输入用户名..."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/shape_login"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+          android:layout_marginTop="20dp"
+            android:layout_height="40dp">
+            <ImageView
+
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/lg_ev_password"
+                android:background="@null"
+                android:inputType="textPassword"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center_vertical"
+                android:hint="请输入密码..."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:textColor="#ffffff"
+        android:text="登录"
+        android:background="@drawable/shape_login_btn"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <Button
+        android:textColor="#ffffff"
+        android:text="注册"
+        android:background="@drawable/shape_login_btn"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+</LinearLayout>

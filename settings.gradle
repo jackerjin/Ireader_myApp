@@ -1,0 +1,2 @@
+include ':app', ':volleytest01', ':volleytest02', ':volleytest03', ':viewpagerIndicator_library', ':listSamples'
+include ':progresslib'

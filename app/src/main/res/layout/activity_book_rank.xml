@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tarena.ireader_myapp.siftchild.BookRankActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_rank_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#1296DB">
+        <ImageView
+            android:id="@+id/imageView_rank_back"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/back" />
+        <TextView
+            android:layout_marginRight="48dp"
+            android:gravity="center"
+            android:text="排行榜"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView_bookRank"
+        android:layout_below="@+id/ll_rank_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+    <!--<ExpandableListView-->
+        <!--android:paddingLeft="20dp"-->
+        <!--android:layout_marginTop="48dp"-->
+        <!--android:id="@+id/expandId"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--/>-->
+</RelativeLayout>

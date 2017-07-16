@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tarena.ireader_myapp.ui.FreebookActivity">
+
+<ImageView
+    android:layout_margin="15dp"
+    android:id="@+id/imageview_freebook"
+    android:src="@mipmap/banner"
+    android:layout_width="150dp"
+    android:layout_height="150dp" />
+   <ImageView
+       android:layout_toEndOf="@+id/imageview_freebook"
+       android:layout_margin="15dp"
+       android:id="@+id/imageview_freebook1"
+       android:src="@mipmap/shuku4"
+       android:layout_width="150dp"
+       android:layout_height="150dp" />
+   <com.example.tarena.ireader_myapp.MyButton
+       android:id="@+id/btn_freebook_down"
+       android:onClick="onClick01"
+       android:layout_marginLeft="15dp"
+       android:text="免费下载"
+       android:textSize="12sp"
+       android:layout_below="@+id/imageview_freebook"
+       android:layout_width="150dp"
+       android:layout_height="32dp"/>
+   <com.example.tarena.ireader_myapp.MyButton
+       android:layout_toRightOf="@+id/imageview_freebook1"
+       android:layout_toEndOf="@+id/btn_freebook_down"
+       android:onClick="onClick02"
+       android:layout_marginLeft="30dp"
+       android:textSize="12sp"
+       android:text="免费下载"
+       android:layout_below="@+id/imageview_freebook"
+       android:layout_width="150dp"
+       android:layout_height="32dp"/>
+</RelativeLayout>
