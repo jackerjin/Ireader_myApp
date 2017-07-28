@@ -1,11 +1,11 @@
 [
     {
-        "merged": "F:\\jackerjin\\studioworkspace\\AndroidStudioProjects\\Ireader_myApp\\listSamples\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\perm_group_location_normal.png",
-        "source": "F:\\jackerjin\\studioworkspace\\AndroidStudioProjects\\Ireader_myApp\\listSamples\\src\\main\\res\\drawable-mdpi\\perm_group_location_normal.png"
-    },
-    {
         "merged": "F:\\jackerjin\\studioworkspace\\AndroidStudioProjects\\Ireader_myApp\\listSamples\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\icon.png",
         "source": "F:\\jackerjin\\studioworkspace\\AndroidStudioProjects\\Ireader_myApp\\listSamples\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
+        "merged": "F:\\jackerjin\\studioworkspace\\AndroidStudioProjects\\Ireader_myApp\\listSamples\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\perm_group_location_normal.png",
+        "source": "F:\\jackerjin\\studioworkspace\\AndroidStudioProjects\\Ireader_myApp\\listSamples\\src\\main\\res\\drawable-mdpi\\perm_group_location_normal.png"
     },
     {
         "merged": "F:\\jackerjin\\studioworkspace\\AndroidStudioProjects\\Ireader_myApp\\listSamples\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\custom_tab_indicator_unselected_focused.9.png",

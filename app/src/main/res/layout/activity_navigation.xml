@@ -7,10 +7,21 @@
     tools:context=".ui.NavigationActivity">
 
 <TextView
+        android:id="@+id/tv_navigation_show"
         android:textColor="#ff0022"
+    android:layout_marginTop="80dp"
         android:gravity="center"
         android:textSize="16sp"
-        android:text="更多功能，敬请期待......"
+        android:text="aaaa"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="20dp" />
+    <Button
+        android:id="@+id/btn_navigation_clean"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/tv_navigation_show"
+        android:text="清理缓存"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
 </RelativeLayout>

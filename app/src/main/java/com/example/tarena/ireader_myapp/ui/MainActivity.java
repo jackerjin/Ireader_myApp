@@ -80,7 +80,6 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
             case R.id.radio0:
                 Log.i("TAG", "radio0");
                 fragmentTransaction.replace(R.id.main_framelayout, new BookbrackFragment(), "radio0");
-
                 break;
             case R.id.radio1:
                 fragmentTransaction.replace(R.id.main_framelayout, new SiftFragment(), "radio1");
@@ -111,6 +110,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
         if(item.getItemId()==R.id.nav_sub_6){
             //1.执行退出操作
             //2.关闭drawer
+
             drawerLayout.closeDrawer(GravityCompat.START);
         }else if(item.getItemId()==R.id.nav_item_1||item.getItemId()==R.id.nav_item_2
                 ||item.getItemId()==R.id.nav_item_3||item.getItemId()==R.id.nav_sub_1
